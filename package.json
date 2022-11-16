@@ -13,7 +13,7 @@
   "main": "dist",
   "types": "dist/index.d.ts",
   "scripts": {
-    "prepare": "rimraf dist && tsc",
+    "prepare": "rimraf dist",
     "test": "rimraf allure-results && npm run prepare && jest",
     "lint": "xo src",
     "fix": "xo src --fix"
